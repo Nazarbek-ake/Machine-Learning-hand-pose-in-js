@@ -1,0 +1,61 @@
+Assalomu aleykum do`stlar. Bu machine learningdagi Proyect. Bu javascriptda kodlari yozilgan.
+Buni siz avvalambor kutubxonalarini yuklashingiz kerak
+
+1-qadam
+
+Tenserflow ni chaqirish
+
+
+terminalga
+
+npx create-react-app hand-pose
+
+ni yozing
+
+bu sizga turli fayllar ochib beradi
+o`shandan faqat src papkasida ishlaysiz
+qolgan fayllarni o`chirib tashlaman
+chunki bular kutubxonalardir
+
+2-qadam
+
+Maxsus kutubxona yuklash
+
+npm install @tensorflow/tfjs
+
+3-qadam
+
+Tensorflowdan handposeni chaqirish
+
+npm install @tensorflow-models/handpose
+
+4-qadam
+
+Camerani qo`shamiz
+
+npm install react-webcam
+
+
+5-qadam 
+
+src ichidagi hamma fayllarni o`chirib bu fayllarni joylang
+
+
+6-qadam
+
+va terminalga o`tasiz keyin bularni yozsiz
+
+cd hand-pose
+
+keyin
+
+npm start
+
+va sizda hammasi ishlaydi
+
+
+Agar ishlamasa bularni terminalga yozing
+
+npm install @tensorflow-models/handpose@  (va uning 1ta oldingi versiyasi)
+
+ni yozasiz
